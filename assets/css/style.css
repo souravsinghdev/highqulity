@@ -1,0 +1,1365 @@
+body{
+  margin: 0px;
+}
+.text-right{
+	text-align: right !important;
+}
+
+.font-family{
+	font-family: "Brush Script MT", cursive;
+	font-weight: 4em;
+	font-size: 3em;
+}
+
+.font-size{
+	font-family:"Brush Script MT", cursive;
+	font-weight: 3em;
+	font-size: 2em;
+}
+
+.drop-btn {
+  background-color: var(--bs-warning-rgb);
+  color: white;
+  padding: 16px ;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F2C400;
+  min-width: 200px;
+  height: 150px;
+  overflow-y: auto;
+  z-index: 1;
+  /*border-radius: 355px 45px 225px 75px / 15px  225px  15px  255px;*/
+  /*border-radius: 15px  225px  15px  255px / 355px 45px 225px 75px;*/
+  border-radius: 15px;
+}
+
+.active{
+	background-color: red;
+}
+
+.active:hover{
+	background-color: red !important;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #675444}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #FC420C;
+}
+
+.font-file{
+  font-family: "Brush Script MT", cursive;
+  color:#675444;
+}
+
+
+.button{
+  color: black;
+  background-color: #F8BF65;
+  border-radius: 355px 45px 225px 75px / 15px  225px  15px  255px;
+  border: none;
+  padding: 8px 10px 8px 10px;
+  text-decoration: none;
+}
+
+.button:hover{
+  color: black;
+  background-color: #675444;
+  border-radius: 355px 45px 225px 75px / 15px  225px  15px  255px;
+  border: none;
+  padding: 8px 10px 8px 10px;
+}
+
+.background-effect{
+  border: 5px dashed orange;
+}
+
+.background-thinks{
+  background-color: #66553D;
+}
+
+section{
+  background: #675444;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.background-attech{
+  background-color: #645446;
+  position:relative;
+  margin-top: 200px;
+  height: 500px;
+}
+
+.padding{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.button-contant{ 
+  color: black;
+  background-color: #FC420C;
+  border-radius: 355px 45px 225px 75px / 15px  225px  15px  255px;
+  border: none;
+  padding: 8px 10px 8px 10px;
+  text-decoration: none;
+}
+
+.button-contant:hover{
+  color: black;
+  background-color: #F8BF50;
+  border-radius: 355px 45px 225px 75px / 15px  225px  15px  255px;
+  border: none;
+  padding: 8px 10px 8px 10px;
+}
+
+@media (max-width: 768px) {
+    .blurbimg {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        margin-top: -10px;
+    }
+
+    .background-attech {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .padding {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
+
+.background-file{
+  background-color: #f5f5f5;
+  padding-top: 150px;
+}
+
+.background{
+   background-color: #F5F5F5;
+}
+
+.background-color{
+  border-radius: 155px 45px 225px 75px / 15px 125px 15px 155px;
+  padding-top: 50px;
+  background-color: #FCF3E0;
+  padding-bottom: 60px;
+}
+
+.button-change{
+  color: white;
+  background-color: #F8BF65;
+  border-radius: 355px 45px 225px 75px / 15px  225px  15px  255px;
+  border: none;
+  padding: 15px 25px 15px 25px;
+  font-size: 25px;
+  font-weight: 25px;
+}
+
+.button-change:hover {
+    color: white;
+    background-color: #675444;
+    border-radius: 355px 45px 225px 75px / 15px  225px  15px  255px;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    font-size: 25px;
+    font-weight: 25px;
+}
+
+.background-connection{
+  background-color: #FCF3E0;
+}
+
+.box{
+    border-radius: 1px solid black;
+    background-color: #675444;
+    border-radius: 25px;
+    text-align: center;
+    padding: 35px; 
+} 
+
+.background-img{
+  background-color: white;
+  border-radius: 15px;
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+.background-items{
+  background-color: #675444;
+}
+
+.counter{
+  background-color: #675444 !important;
+  padding: 30px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.counter::before{
+  content: "";
+  width: 10px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #aaaeb1;
+  background: #fff;
+  background-image: repeating-linear-gradient(transparent, transparent 2px, #c9cbcc 2px, #c9cbcc 4px);
+  position: absolute;
+  top: -32px;
+  left: 20%;
+}
+
+.counter::after{
+  content: "";
+  width: 10px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #aaaeb1;
+  background: #fff;
+  background-image: repeating-linear-gradient(transparent, transparent 2px, #c9cbcc 2px, #c9cbcc 4px);
+  position: absolute;
+  top: -32px;
+  right: 20%;
+}
+
+.text-contant {
+   
+  color: white;
+  text-decoration: none;
+
+}
+
+.text-contant:hover{
+   
+  color: white;
+  background-color: #FA575C;
+  border-radius: 355px 45px 225px 75px / 15px  225px  15px  255px;
+  padding: 5px 20px;
+}
+
+.background-imgs{
+
+  background-image: url(../imgs/jumbotron.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+   
+}
+
+.banner-padding{
+  padding-top: 10px;
+}
+
+.button-in{
+  background-color: red;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.size-change{
+  font-size: 70px;
+}
+
+.family{
+  font-family: "Brush Script MT",cursive;
+}
+
+.size{
+  font-size: 25px;
+}
+
+.img-setting{
+  border-radius: 90px 90px 90px 90px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.danger{
+  color: red;
+}
+
+.danger:hover{
+  color: black;
+}
+
+.inner-box{
+  font-weight: bolder;
+  font-size: 30px; 
+}
+
+.inner-change{
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 30px;
+  padding-left: 30px;  
+  text-decoration: none; 
+}
+
+.inner-change:hover
+{ 
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.pet-inner{
+  color: red;
+  font-size: 60px;
+}
+
+.img-font{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.img-size{
+  border-radius: 40% 45% 60% 40% / 45% 55% 45% 55%;
+}
+
+.background-inner{
+  background-image: url(../imgs/mask_2_outline.webp);
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+}
+
+.pargrf-font{
+  font-size: 18px;
+}
+
+.box-border{
+  font-size: 30px;
+  border: 2px solid darkblue;
+  padding: 6px 3px 6px 3px;
+}
+
+.contact-back {
+  background-image: url(../imgs/Untitled-design.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px; /* minimum itna toh rahega */
+}
+
+.padd-change{
+  padding-top: 200px;
+}
+
+.cont-font{
+  font-size: 30px;
+  color: #675444;
+  font-weight: bolder;
+  padding-bottom: 5px;
+  
+}
+
+.p-inner{
+  font-size: 18px;
+}
+
+
+.text-dec{
+  text-decoration: none;
+}
+
+.inpt-in{
+    
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 90%;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: black;
+
+}
+
+.inpt-out{
+  box-shadow: 5px 5px 10px 5px gray;
+}
+
+.inpt-in::placeholder{
+  color: #222529;
+}
+
+.text{
+  color: #675444;
+}
+
+.snd-fnt{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+
+.inpt-me{
+    
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 90%;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: black;
+  background-color: #FFA500;
+}
+
+.inpt-me:hover{
+    
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 90%;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: black;
+  background-color: #675444;
+}
+
+.test-back{
+
+  background-image: url(../imgs/Untitled-design.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  color: white;
+
+}
+ 
+@media (max-width: 576px) {
+  .test-back {
+    background-size: contain;     
+    background-color: #000;        
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+
+.txt-bx{
+  border-radius: ;
+  border: 1px solid black;
+}
+
+.gd-fnt{
+  font-size: 40px;
+  font-weight: bolder;
+  color: #675444;
+}
+
+.img-inner{
+  border-radius: 355px 45px 225px 75px / 15px  225px  15px  255px;
+  text-align: center;
+}
+
+.fnt{
+  font-size: 17px;
+  color: black;
+}
+
+.prg{
+   font-size: 15px;
+   font-weight: 400;
+
+}
+
+.int-bg{
+  background-color: #FBF4DE;
+  border-radius: 355px 45px 225px 75px / 15px  225px  15px  255px;
+}
+
+.int-cng{
+    
+  border-radius: 355px 45px 225px 75px / 15px 225px 15px 255px;
+  border: 2px solid #675444;
+  background-color: white;
+  width: 100%;
+}
+
+.pet-inner{
+  background-color: white;
+  color: #495057;
+  font-weight: bolder;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.pet-inner:hover{
+  background-color: #675444;
+  color: white;
+  font-weight: bolder;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.pet-int{
+  background-color: white;
+  color: #495057;
+  font-weight: bolder;
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.pet-int:hover{
+  background-color: #675444;
+  color: white;
+  font-weight: bolder;
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.inpt-inr{ 
+  border-radius: 355px 45px 225px 75px / 15px 225px 15px 255px;
+  border: none;
+  color: white;
+  padding: 12px;
+  background-color: red;
+}
+
+.inpt-inr:hover{ 
+  border-radius: 355px 45px 225px 75px / 15px 225px 15px 255px;
+  border: none;
+  color: white;
+  padding: 12px;
+  background-color: #F8BF50;
+}
+
+.dropdown-item:hover{
+   
+  background-color: #675444 !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 355px 45px 225px 75px / 15px 225px 15px 255px;
+}
+
+
+@media (max-width: 1199px) {
+  .nav-link {
+    font-size: 0.85rem;
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+    cursor: pointer;
+  }
+}
+
+
+.topbar{
+  background-color: #e2e2e2;
+}
+
+/*  top bar css start from here */
+@media screen and (min-width: 320px) and (max-width: 426px) {
+  .text-pad { 
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .add{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+  .text-pad {
+    font-size: 16px;
+  }
+
+  .padd{
+    padding-left: 350px;
+    padding-right: 25px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .text-pad {  
+    font-size: 16px;
+  }
+
+  .padd{
+    padding-left: 500px;
+    padding-right: 25px;
+  }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .text-pad {  
+    font-size: 16px;
+  }
+
+  .padd{
+    padding-left: 800px;
+    padding-right: 25px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+  .text-pad {  
+    font-size: 16px;
+  }
+
+  .padd{
+    padding-left: 820px;
+    padding-right: 25px;
+  }
+}
+
+/*  top bar css end here */
+
+.fnt-file{
+  font-size: 50px;
+}
+
+
+/* pet-info css start from here */
+
+/* ── WRAPPER ── */
+.pet-wrap {
+  max-width: 1100px; /* 860px tha, badha diya 1440px ke liye */
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: sans-serif;
+}
+
+/* ── CARD ── */
+.pet-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2.5px dashed #c9852a;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* ── IMAGE SIDE ── */
+.pet-img-side {
+  background: #f5ede0;
+  min-height: 340px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pet-img-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pet-available-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: #e07b2a;
+  color: #fff;
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+/* ── INFO SIDE ── */
+.pet-info-side {
+  padding: 36px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.pet-name {
+  font-size: 28px;
+  color: #5a3e2b;
+  margin: 0;
+}
+
+.pet-divider {
+  height: 2px;
+  width: 44px;
+  background: #c9852a;
+  border-radius: 2px;
+}
+
+.pet-price-lbl,
+.pet-desc-lbl {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: gray;
+}
+
+.pet-price-val {
+  font-size: 30px;
+  font-weight: 700;
+  color: #e07b2a;
+}
+
+.pet-desc-txt {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.pet-btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.pet-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+.pet-btn-back {
+  background: transparent;
+  color: #8b6348;
+  border: 1.5px solid #d4a96a;
+}
+
+.pet-btn-buy {
+  background: #e07b2a;
+  color: #fff;
+}
+
+/* ── SMALL SCREEN RESPONSIVE ── */
+@media (max-width: 576px) {
+  .pet-card {
+    grid-template-columns: 1fr; /* image upar, text niche */
+  }
+
+  .pet-img-side {
+    min-height: 260px; /* chhoti screen pe image height kam */
+  }
+
+  .pet-info-side {
+    padding: 24px 20px;
+    gap: 14px;
+  }
+
+  .pet-name {
+    font-size: 22px;
+  }
+
+  .pet-price-val {
+    font-size: 24px;
+  }
+
+  .pet-btn-group {
+    flex-direction: column; /* buttons bhi stack ho jayenge */
+  }
+
+  .pet-btn {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/* pet-info css end here */
+
+
+/* pet buy css start from here */
+
+/* ── CONTACT WRAP ── */
+.contact-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  font-family: sans-serif;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+/* ── LEFT: FORM ── */
+.contact-form-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #3a2a1a;
+  margin-bottom: 24px;
+}
+
+.contact-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact-field label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: gray;
+}
+
+.contact-field input,
+.contact-field textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid #d4a96a;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #3a2a1a;
+  outline: none;
+  transition: border 0.2s;
+  font-family: sans-serif;
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  border-color: #e07b2a;
+}
+
+.contact-field textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-submit-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #e07b2a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+/* ── RIGHT: PET INFO CARD ── */
+.pet-info-card {
+  border: 2.5px dashed #c9852a;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  position: sticky;
+  top: 20px;
+}
+
+.pet-info-card-img {
+  position: relative;
+  background: #f5ede0;
+  height: 220px;
+  overflow: hidden;
+}
+
+.pet-info-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pet-info-card-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #e07b2a;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.06em;
+}
+
+.pet-info-card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pet-info-card-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #5a3e2b;
+  margin: 0;
+}
+
+.pet-info-card-divider {
+  height: 2px;
+  width: 36px;
+  background: #c9852a;
+  border-radius: 2px;
+}
+
+.pet-info-card-lbl {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: gray;
+  display: block;
+}
+
+.pet-info-card-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #e07b2a;
+  display: block;
+  margin-top: 2px;
+}
+
+.pet-info-card-desc {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #5a4535;
+  margin: 0;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pet-info-card {
+    position: static;
+  }
+
+  .contact-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-title {
+    font-size: 20px;
+  }
+}
+
+/* information start from here */
+
+/* ── INFO BOX ── */
+.info-box {
+  background: #e8635a;
+  border-radius: 12px 60px 12px 60px;
+  padding: 36px 32px;
+  max-width: 420px;
+  width: 100%;
+}
+
+.info-box-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.info-box-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.info-box-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.info-box-list li .info-icon {
+  font-size: 16px;
+  margin-top: 1px;
+  flex-shrink: 0;
+}
+
+.info-box-list li a {
+  color: #ffd166;
+  text-decoration: none;
+}
+
+.info-box-list li a:hover {
+  text-decoration: underline;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 576px) {
+  .info-box {
+    border-radius: 12px 40px 12px 40px;
+    padding: 28px 22px;
+    max-width: 100%;
+  }
+
+  .info-box-title {
+    font-size: 20px;
+  }
+}
+
+
+/* pet-buy css end here */
+
+
+/* reguster page css start from here */
+
+/* ── REGISTER WRAP ── */
+.register-wrap {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: sans-serif;
+}
+
+/* ── REGISTER CARD ── */
+.register-card {
+  background: #fff;
+  border: 2.5px dashed #c9852a;
+  border-radius: 16px;
+  padding: 40px 36px;
+}
+
+.register-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #3a2a1a;
+  margin-bottom: 8px;
+}
+
+.register-subtitle {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 28px;
+}
+
+/* ── FORM GROUPS ── */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.register-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.register-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.register-field label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: gray;
+}
+
+.register-field input,
+.register-field textarea {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid #d4a96a;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #3a2a1a;
+  outline: none;
+  transition: border 0.2s;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.register-field input:focus,
+.register-field textarea:focus {
+  border-color: #e07b2a;
+}
+
+.register-field textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+/* ── SUBMIT BUTTON ── */
+.register-submit-btn {
+  width: 100%;
+  padding: 13px;
+  background: #e07b2a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background 0.2s;
+}
+
+.register-submit-btn:hover {
+  background: #c46419;
+}
+
+.register-login-link {
+  text-align: center;
+  font-size: 13px;
+  color: gray;
+  margin-top: 16px;
+}
+
+.register-login-link a {
+  color: #e07b2a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 576px) {
+  .register-card {
+    padding: 28px 20px;
+  }
+
+  .register-row {
+    grid-template-columns: 1fr;
+  }
+
+  .register-title {
+    font-size: 22px;
+  }
+}
+
+/* reguster page css end here */
+
+/* login css start from here */
+/* ── LOGIN WRAP ── */
+.login-wrap {
+  max-width: 440px;
+  margin: 80px auto;
+  padding: 0 20px;
+  font-family: sans-serif;
+}
+
+/* ── LOGIN CARD ── */
+.login-card {
+  background: #fff;
+  border: 2.5px dashed #c9852a;
+  border-radius: 16px;
+  padding: 40px 36px;
+}
+
+.login-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #3a2a1a;
+  margin-bottom: 8px;
+}
+
+.login-subtitle {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 28px;
+}
+
+/* ── FORM ── */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ── FIELDS ── */
+.login-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.login-field label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: gray;
+}
+
+.login-field input {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid #d4a96a;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #3a2a1a;
+  outline: none;
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
+
+.login-field input:focus {
+  border-color: #e07b2a;
+}
+
+/* ── ERROR MESSAGE ── */
+.login-error-msg {
+  color: #e03a3a;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* ── SUBMIT BUTTON ── */
+.login-submit-btn {
+  width: 100%;
+  padding: 13px;
+  background: #e07b2a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 6px;
+}
+
+.login-submit-btn:hover {
+  background: #c46419;
+}
+
+/* ── REGISTER LINK ── */
+.login-register-link {
+  text-align: center;
+  font-size: 13px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.login-register-link a {
+  color: #e07b2a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 28px 20px;
+  }
+
+  .login-title {
+    font-size: 22px;
+  }
+
+  .login-wrap {
+    margin: 40px auto;
+  }
+}
+/* login css end here */
+
+
+/*checkbox input css start from here  */
+
+.remember-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 1.2rem;
+}
+
+.remember-wrap input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #c9862a;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.remember-wrap label {
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* checkbox input css end here  */
